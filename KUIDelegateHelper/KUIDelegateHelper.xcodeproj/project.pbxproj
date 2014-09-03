@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D64DF16119B6B57C00BD8468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64DF16019B6B57C00BD8468 /* Foundation.framework */; };
+		D64DF16619B6B57C00BD8468 /* KUIDelegateHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D64DF16519B6B57C00BD8468 /* KUIDelegateHelper.h */; };
+		D64DF16819B6B57C00BD8468 /* KUIDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D64DF16719B6B57C00BD8468 /* KUIDelegateHelper.m */; };
+		D64DF18B19B6B9E100BD8468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64DF16019B6B57C00BD8468 /* Foundation.framework */; };
+		D64DF18D19B6B9E100BD8468 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64DF18C19B6B9E100BD8468 /* CoreGraphics.framework */; };
+		D64DF19419B6B9E100BD8468 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64DF19219B6B9E100BD8468 /* InfoPlist.strings */; };
+		D64DF19619B6B9E100BD8468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D64DF19519B6B9E100BD8468 /* main.m */; };
+		D64DF19A19B6B9E100BD8468 /* KUIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D64DF19919B6B9E100BD8468 /* KUIAppDelegate.m */; };
+		D64DF19D19B6B9E100BD8468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64DF19B19B6B9E100BD8468 /* Main.storyboard */; };
+		D64DF1A019B6B9E100BD8468 /* KUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64DF19F19B6B9E100BD8468 /* KUIViewController.m */; };
+		D64DF1A219B6B9E100BD8468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64DF1A119B6B9E100BD8468 /* Images.xcassets */; };
+		D64DF1BD19B6BAB100BD8468 /* libKUIDelegateHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D64DF15D19B6B57C00BD8468 /* libKUIDelegateHelper.a */; };
+		D64DF1BF19B6BC3900BD8468 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64DF1BE19B6BC3900BD8468 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D64DF1BB19B6BAA900BD8468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D64DF15519B6B57C00BD8468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64DF15C19B6B57C00BD8468;
+			remoteInfo = KUIDelegateHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D64DF15B19B6B57C00BD8468 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D64DF16619B6B57C00BD8468 /* KUIDelegateHelper.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D64DF15D19B6B57C00BD8468 /* libKUIDelegateHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKUIDelegateHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64DF16019B6B57C00BD8468 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D64DF16519B6B57C00BD8468 /* KUIDelegateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUIDelegateHelper.h; sourceTree = "<group>"; };
+		D64DF16719B6B57C00BD8468 /* KUIDelegateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUIDelegateHelper.m; sourceTree = "<group>"; };
+		D64DF18A19B6B9E100BD8468 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64DF18C19B6B9E100BD8468 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D64DF19119B6B9E100BD8468 /* Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample-Info.plist"; sourceTree = "<group>"; };
+		D64DF19319B6B9E100BD8468 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D64DF19519B6B9E100BD8468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D64DF19719B6B9E100BD8468 /* Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-Prefix.pch"; sourceTree = "<group>"; };
+		D64DF19819B6B9E100BD8468 /* KUIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUIAppDelegate.h; sourceTree = "<group>"; };
+		D64DF19919B6B9E100BD8468 /* KUIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUIAppDelegate.m; sourceTree = "<group>"; };
+		D64DF19C19B6B9E100BD8468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D64DF19E19B6B9E100BD8468 /* KUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KUIViewController.h; sourceTree = "<group>"; };
+		D64DF19F19B6B9E100BD8468 /* KUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KUIViewController.m; sourceTree = "<group>"; };
+		D64DF1A119B6B9E100BD8468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D64DF1BE19B6BC3900BD8468 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64DF15A19B6B57C00BD8468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64DF16119B6B57C00BD8468 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64DF18719B6B9E100BD8468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64DF1BF19B6BC3900BD8468 /* UIKit.framework in Frameworks */,
+				D64DF1BD19B6BAB100BD8468 /* libKUIDelegateHelper.a in Frameworks */,
+				D64DF18D19B6B9E100BD8468 /* CoreGraphics.framework in Frameworks */,
+				D64DF18B19B6B9E100BD8468 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64DF15419B6B57C00BD8468 = {
+			isa = PBXGroup;
+			children = (
+				D64DF16219B6B57C00BD8468 /* KUIDelegateHelper */,
+				D64DF18F19B6B9E100BD8468 /* Sample */,
+				D64DF15F19B6B57C00BD8468 /* Frameworks */,
+				D64DF15E19B6B57C00BD8468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D64DF15E19B6B57C00BD8468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64DF15D19B6B57C00BD8468 /* libKUIDelegateHelper.a */,
+				D64DF18A19B6B9E100BD8468 /* Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D64DF15F19B6B57C00BD8468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D64DF1BE19B6BC3900BD8468 /* UIKit.framework */,
+				D64DF16019B6B57C00BD8468 /* Foundation.framework */,
+				D64DF18C19B6B9E100BD8468 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D64DF16219B6B57C00BD8468 /* KUIDelegateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D64DF16519B6B57C00BD8468 /* KUIDelegateHelper.h */,
+				D64DF16719B6B57C00BD8468 /* KUIDelegateHelper.m */,
+			);
+			name = KUIDelegateHelper;
+			path = KUIDelegateHelper;
+			sourceTree = "<group>";
+		};
+		D64DF18F19B6B9E100BD8468 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				D64DF19819B6B9E100BD8468 /* KUIAppDelegate.h */,
+				D64DF19919B6B9E100BD8468 /* KUIAppDelegate.m */,
+				D64DF19B19B6B9E100BD8468 /* Main.storyboard */,
+				D64DF19E19B6B9E100BD8468 /* KUIViewController.h */,
+				D64DF19F19B6B9E100BD8468 /* KUIViewController.m */,
+				D64DF1A119B6B9E100BD8468 /* Images.xcassets */,
+				D64DF19019B6B9E100BD8468 /* Supporting Files */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		D64DF19019B6B9E100BD8468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D64DF19119B6B9E100BD8468 /* Sample-Info.plist */,
+				D64DF19219B6B9E100BD8468 /* InfoPlist.strings */,
+				D64DF19519B6B9E100BD8468 /* main.m */,
+				D64DF19719B6B9E100BD8468 /* Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D64DF15C19B6B57C00BD8468 /* KUIDelegateHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64DF18019B6B57C00BD8468 /* Build configuration list for PBXNativeTarget "KUIDelegateHelper" */;
+			buildPhases = (
+				D64DF15919B6B57C00BD8468 /* Sources */,
+				D64DF15A19B6B57C00BD8468 /* Frameworks */,
+				D64DF15B19B6B57C00BD8468 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KUIDelegateHelper;
+			productName = KUIDelegateHelper;
+			productReference = D64DF15D19B6B57C00BD8468 /* libKUIDelegateHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D64DF18919B6B9E100BD8468 /* Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64DF1B519B6B9E100BD8468 /* Build configuration list for PBXNativeTarget "Sample" */;
+			buildPhases = (
+				D64DF18619B6B9E100BD8468 /* Sources */,
+				D64DF18719B6B9E100BD8468 /* Frameworks */,
+				D64DF18819B6B9E100BD8468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64DF1BC19B6BAA900BD8468 /* PBXTargetDependency */,
+			);
+			name = Sample;
+			productName = Sample;
+			productReference = D64DF18A19B6B9E100BD8468 /* Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64DF15519B6B57C00BD8468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = koherent.org;
+			};
+			buildConfigurationList = D64DF15819B6B57C00BD8468 /* Build configuration list for PBXProject "KUIDelegateHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64DF15419B6B57C00BD8468;
+			productRefGroup = D64DF15E19B6B57C00BD8468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D64DF15C19B6B57C00BD8468 /* KUIDelegateHelper */,
+				D64DF18919B6B9E100BD8468 /* Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D64DF18819B6B9E100BD8468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64DF1A219B6B9E100BD8468 /* Images.xcassets in Resources */,
+				D64DF19419B6B9E100BD8468 /* InfoPlist.strings in Resources */,
+				D64DF19D19B6B9E100BD8468 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64DF15919B6B57C00BD8468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64DF16819B6B57C00BD8468 /* KUIDelegateHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64DF18619B6B9E100BD8468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64DF19A19B6B9E100BD8468 /* KUIAppDelegate.m in Sources */,
+				D64DF19619B6B9E100BD8468 /* main.m in Sources */,
+				D64DF1A019B6B9E100BD8468 /* KUIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D64DF1BC19B6BAA900BD8468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64DF15C19B6B57C00BD8468 /* KUIDelegateHelper */;
+			targetProxy = D64DF1BB19B6BAA900BD8468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D64DF19219B6B9E100BD8468 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64DF19319B6B9E100BD8468 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D64DF19B19B6B9E100BD8468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64DF19C19B6B9E100BD8468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D64DF17E19B6B57C00BD8468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D64DF17F19B6B57C00BD8468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D64DF18119B6B57C00BD8468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KUIDelegateHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KUIDelegateHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D64DF18219B6B57C00BD8468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KUIDelegateHelper.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = KUIDelegateHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D64DF1B619B6B9E100BD8468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sample/Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D64DF1B719B6B9E100BD8468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sample/Sample-Prefix.pch";
+				INFOPLIST_FILE = "Sample/Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64DF15819B6B57C00BD8468 /* Build configuration list for PBXProject "KUIDelegateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64DF17E19B6B57C00BD8468 /* Debug */,
+				D64DF17F19B6B57C00BD8468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D64DF18019B6B57C00BD8468 /* Build configuration list for PBXNativeTarget "KUIDelegateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64DF18119B6B57C00BD8468 /* Debug */,
+				D64DF18219B6B57C00BD8468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D64DF1B519B6B9E100BD8468 /* Build configuration list for PBXNativeTarget "Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D64DF1B619B6B9E100BD8468 /* Debug */,
+				D64DF1B719B6B9E100BD8468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64DF15519B6B57C00BD8468 /* Project object */;
+}
